@@ -1,122 +1,147 @@
-# -------------------------
-# Avery-OS: Core Ignored Items
-# -------------------------
-
-# Python bytecode
+# Byte-compiled / optimized / DLL files
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
+*.py[cod]
+*$py.class
 
-# Virtual environments
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+PIP_DELETE_THIS_DIRECTORY.txt
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+.pybuilder/
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# poetry
+poetry.lock
+
+# pdm
+.pdm.toml
+
+# PEP 582
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
 .env
-.venv/
+.venv
 env/
 venv/
+ENV/
+env.bak/
+venv.bak/
 
-# Local system environments / secrets
-*.env
-*.secret
-secrets.json
-config.local.json
+# Spyder project settings
+.spyderproject
+.spyproject
 
-# API keys or temp tokens
-api_keys.json
-credentials.json
-tokens.json
+# Rope project settings
+.ropeproject
 
-# -------------------------
-# Dependencies / Packaging
-# -------------------------
-build/
-dist/
-*.egg-info/
-*.egg
-.eggs/
-wheels/
-downloads/
+# mkdocs documentation
+/site
 
-# -------------------------
-# Jupyter Notebook
-# -------------------------
-.ipynb_checkpoints/
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
 
-# -------------------------
-# Logs
-# -------------------------
-*.log
-logs/
-debug.log
+# Pyre type checker
+.pyre/
 
-# -------------------------
-# IDE & Editor Noise
-# -------------------------
+# pytype static type analyzer
+.pytype/
 
-# VSCode
+# Cython debug symbols
+cython_debug/
+
+# IDEs
 .vscode/
-.history/
-
-# PyCharm / JetBrains
 .idea/
-*.iml
+*.swp
+*.swo
+*~
 
-# Cursor AI
-.cursorignore
-.cursorindexingignore
-.cursor/
-.cursor*
-
-# -------------------------
-# OS system files
-# -------------------------
+# OS
 .DS_Store
 Thumbs.db
-
-# -------------------------
-# n8n (local state)
-# -------------------------
-.n8n/
-.local-n8n/
-n8n-backups/
-
-# -------------------------
-# Web build artifacts
-# -------------------------
-web/avery-os-site/node_modules/
-web/avery-os-site/.cache/
-web/avery-os-site/dist/
-web/avery-os-site/build/
-
-# -------------------------
-# WordPress sync exports
-# -------------------------
-ussa-directory/temp/
-ussa-directory/exports/
-wordpress-sync-cache/
-
-# -------------------------
-# Python tooling
-# -------------------------
-.pytest_cache/
-.mypy_cache/
-.pytype/
-.pyre/
-.ruff_cache/
-.coverage
-coverage.xml
-
-# -------------------------
-# Node / JS (just in case)
-# -------------------------
-node_modules/
-npm-debug.log
-yarn-error.log
-
-# -------------------------
-# Temporary working files
-# -------------------------
-tmp/
-temp/
-*.tmp
-*.bak
-*.swp
