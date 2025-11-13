@@ -1,0 +1,2 @@
+# Python dependencies for avery-os
+# Add your project dependencies here
